@@ -16,13 +16,13 @@ public class Sum {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      int num1,num2;
+      int number1,number2;
       Scanner obj=new Scanner(System.in);
         System.out.println("Enter First Number:");
-        num1=obj.nextInt();
+        number1=obj.nextInt();
         System.out.println("Enter Second Number:");
-        num2=obj.nextInt();
-        System.out.println("The sum of numbers are:"+(num1+num2));
+        number2=obj.nextInt();
+        System.out.println("The sum of numbers are:"+(number1+number2));
         
     }
     
